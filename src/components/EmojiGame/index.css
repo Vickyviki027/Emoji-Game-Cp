@@ -2,8 +2,6 @@
 .bg-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   background-image: linear-gradient(to right, #9796f0, #fbc7d4);
   height: 100vh;
   background-size: cover;
@@ -14,6 +12,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  height: 100vh;
 }
 .emoji-container {
   display: flex;
@@ -34,8 +33,12 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #ffffff33;
-  border-radius: 10px;
+  background-color: transparent;
+  width: 300px;
   align-self: center;
-  width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .result-container {
+    width: 500px;
+  }
 }

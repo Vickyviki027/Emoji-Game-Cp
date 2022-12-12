@@ -1,10 +1,19 @@
 /* Write your code here. */
 .result-sub-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .result-sub-container {
+    flex-direction: row;
+    padding: 10px;
+  }
 }
 .result-text-container {
   display: flex;
@@ -15,35 +24,71 @@
 }
 .result-heading {
   font-family: 'Roboto';
-  font-size: 27px;
+  font-size: 17px;
   font-weight: 600;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .result-heading {
+    font-size: 27px;
+  }
 }
 .score-result {
   font-family: 'Roboto';
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 600;
   color: #ffffff;
 }
+@media screen and (min-width: 768px) {
+  .score-result {
+    font-size: 23px;
+  }
+}
 .scores {
   font-family: 'Roboto';
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 600;
   color: #6a59ff;
 }
+@media screen and (min-width: 768px) {
+  .scores {
+    font-size: 23px;
+  }
+}
 .play-button {
   font-family: 'Roboto';
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   color: #3d3d3d;
   background-color: #ffce27;
   border-radius: 15px;
-  padding: 10px;
+  padding: 8px;
   outline: none;
   border: none;
 }
+@media screen and (min-width: 768px) {
+  .play-button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
 .result-img {
-  padding-left: 20px;
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: 150px;
+  order: -1;
+}
+@media screen and (min-width: 768px) {
+  .result-img {
+    padding-left: 20px;
+    height: 300px;
+    width: 250px;
+  }
+}
+.result-img-container {
+  order: -1;
+}
+@media screen and (min-width: 768px) {
+  .result-img-container {
+    order: 1;
+  }
 }
