@@ -6,11 +6,19 @@
   background-color: #ffffff33;
   border-radius: 20px;
   padding: 20px;
-  height: 200px;
-  width: 200px;
+  height: 90px;
+  width: 90px;
   margin: 10px;
   border: 2px solid #ffffff33;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .emoji-items {
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
 }
 .emoji-button {
   background-color: transparent;
@@ -18,7 +26,13 @@
   /* cursor: pointer; */
 }
 .emoji-img {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .emoji-img {
+    height: 100px;
+    width: 100px;
+  }
 }
