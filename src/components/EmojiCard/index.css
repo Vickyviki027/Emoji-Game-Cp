@@ -1,0 +1,24 @@
+/* Write your code here. */
+.emoji-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 20px;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #ffffff33;
+  cursor: pointer;
+}
+.emoji-button {
+  background-color: transparent;
+  border: none;
+  /* cursor: pointer; */
+}
+.emoji-img {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
